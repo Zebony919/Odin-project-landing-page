@@ -132,10 +132,17 @@ p {
 .image-placeholder {
     width: 700px;
     height: 300px;
+    border-radius: 10%;
     background-color: grey;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.home-image {
+    width: 700px;
+    height: 300px;
+    border-radius: 10%;
 }
 
 /*
@@ -175,6 +182,12 @@ p {
     height: 150px;
     width: 150px;
     border: 4px solid blue;
+    border-radius: 10%;
+}
+
+.blue-image {
+    height: 150px;
+    width: 150px;
     border-radius: 10%;
 }
 
